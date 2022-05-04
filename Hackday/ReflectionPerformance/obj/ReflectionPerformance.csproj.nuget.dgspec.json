@@ -1,0 +1,117 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Sandbox\\Hackday\\ReflectionPerformance\\ReflectionPerformance.csproj": {}
+  },
+  "projects": {
+    "C:\\Sandbox\\Hackday\\ReflectionPerformance.External\\ReflectionPerformance.External.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Sandbox\\Hackday\\ReflectionPerformance.External\\ReflectionPerformance.External.csproj",
+        "projectName": "ReflectionPerformance.External",
+        "projectPath": "C:\\Sandbox\\Hackday\\ReflectionPerformance.External\\ReflectionPerformance.External.csproj",
+        "packagesPath": "C:\\Users\\HintonDavid\\.nuget\\packages\\",
+        "outputPath": "C:\\Sandbox\\Hackday\\ReflectionPerformance.External\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HintonDavid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "targetAlias": "net461",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "targetAlias": "net461",
+          "dependencies": {
+            "Sigil": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Sandbox\\Hackday\\ReflectionPerformance\\ReflectionPerformance.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Sandbox\\Hackday\\ReflectionPerformance\\ReflectionPerformance.csproj",
+        "projectName": "ReflectionPerformance",
+        "projectPath": "C:\\Sandbox\\Hackday\\ReflectionPerformance\\ReflectionPerformance.csproj",
+        "packagesPath": "C:\\Users\\HintonDavid\\.nuget\\packages\\",
+        "outputPath": "C:\\Sandbox\\Hackday\\ReflectionPerformance\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HintonDavid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "targetAlias": "net461",
+            "projectReferences": {
+              "C:\\Sandbox\\Hackday\\ReflectionPerformance.External\\ReflectionPerformance.External.csproj": {
+                "projectPath": "C:\\Sandbox\\Hackday\\ReflectionPerformance.External\\ReflectionPerformance.External.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "targetAlias": "net461",
+          "dependencies": {
+            "BenchmarkDotNet": {
+              "target": "Package",
+              "version": "[0.13.1, )"
+            },
+            "Sigil": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

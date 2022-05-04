@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jndGcg7O5R6Vy/HYNoIOOeoWRUUKlmehAaU8fzT2kyCZvP8xE72mDFgL5SYo9I0quSEqYQNwsWwApS86coE+dg==",
+  "success": true,
+  "projectFilePath": "C:\\Sandbox\\Hackday\\ReflectionPerformance.External\\ReflectionPerformance.External.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HintonDavid\\.nuget\\packages\\sigil\\5.0.0\\sigil.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
